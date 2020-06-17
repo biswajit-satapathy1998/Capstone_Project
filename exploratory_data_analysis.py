@@ -354,10 +354,6 @@ def initialize_agerange_histogram(dataframe):
     OUTPUT:
         agerange_histogram: DataFrame that describes customer age range
                             statistics associated with a particular offer
-    References:
-    ---------
-    https://stackoverflow.com/questions/32015669/
-        change-order-of-columns-in-stacked-bar-plot
     """
     agerange_histogram = dataframe['agerange'].value_counts()
     agerange_histogram *= 100 / agerange_histogram.sum()
@@ -567,10 +563,7 @@ def visualize_customer_statistics(cur_offer_id,
                              particular offer
     OUTPUT:
         None
-    Reference:
-    ---------
-    https://stackoverflow.com/questions/31859285/
-        rotate-tick-labels-for-seaborn-barplot/31861477"""
+    """
     income_bins = customer_income['income'].unique()
 
     xticks = np.array(np.arange(0, len(income_bins), 5))
