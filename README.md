@@ -32,6 +32,20 @@ This problem is solved in four steps:
 3. I will compare the performance of logistic regression, random forest, and gradient boosting models.
 4. Refine the parameters of the model that has the highest accuracy and F1-score.
 
+Model ranking based on training data accuracy
+1. RandomForestClassifier model accuracy: 0.742
+2. GradientBoostingClassifier model accuracy: 0.736
+3. LogisticRegression model accuracy: 0.722
+4. Naive predictor accuracy: 0.471
+
+Model ranking based on training data F1-score
+1. RandomForestClassifier model f1-score: 0.735
+2. GradientBoostingClassifier model f1-score: 0.725
+3. LogisticRegression model f1-score: 0.716
+4. Naive predictor f1-score: 0.640
+
+Results suggest that the random forest model has the best training data accuracy and F1-score
+
 ## Prediction is divided into the following steps
 1. Reading Dataset
 2. EDA
