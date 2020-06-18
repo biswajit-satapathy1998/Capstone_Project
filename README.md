@@ -8,9 +8,6 @@ This is an classification model which predicts whether a customer will respond t
 4. Matplotlib
 6. Seaborn
 7. sklearn
-8. re
-9. os
-10. datetime
 
 ## Motivation
 The problem is to build a model that predicts whether a customer will respond to an offer or not. 
