@@ -21,20 +21,7 @@ The problem is to build a model that predicts whether a customer will respond to
 3. README.md : The readme file for write-up.
 
 ## Summary of the results
-This problem is solved in four steps:
-Model ranking based on training data accuracy
-1. RandomForestClassifier model accuracy: 0.736
-2. GradientBoostingClassifier model accuracy: 0.737
-3. LogisticRegression model accuracy: 0.725
-4. AdaBoost model accuracy: 0.731
-
-Model ranking based on training data F1-score
-1. RandomForestClassifier model f1-score: 0.727
-2. GradientBoostingClassifier model f1-score: 0.725
-3. LogisticRegression model f1-score: 0.718
-4. AdaBoost model f1-score: 0.724
-
-Results suggest that the random forest model has the best training data accuracy and F1-score
+Here we are predicting if a customer will respond to the offer or not. It will be very helpful in business perspective. By predicting, we can able to give customer some other offers so that there will be more profit.
 
 ## Prediction is divided into the following steps
 1. Reading Dataset
